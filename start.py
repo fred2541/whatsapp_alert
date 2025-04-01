@@ -45,7 +45,7 @@ with sync_playwright() as p:
         # Génération et affichage du QR code pour la connexion
         generate_qr(data_ref, "qrcode.png")
         print("Demande de connexion détectée")
-        print("Scanner le QR Code généré dans 'qrcode.png' (Valable 20 secondes !!!)")
+        print("Scanner le QR Code généré dans 'qrcode.png' (Valable ~20 secondes !!!)")
         print("Puis redemarrer l'application")
     else:
         print("Connecté")
